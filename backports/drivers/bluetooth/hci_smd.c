@@ -32,7 +32,7 @@
 #include <net/bluetooth/bluetooth.h>
 #include <net/bluetooth/hci_core.h>
 #include <net/bluetooth/hci.h>
-#include <mach/msm_smd.h>
+#include <soc/qcom/smd.h>
 
 #define EVENT_CHANNEL		"APPS_RIVA_BT_CMD"
 #define DATA_CHANNEL		"APPS_RIVA_BT_ACL"
